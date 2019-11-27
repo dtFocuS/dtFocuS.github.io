@@ -29,6 +29,14 @@ body {
     display: block
 }
 
+.center-info p {
+    /* display: none; */
+    /* color: #57C3F2; */
+}
+
+.active {
+    color: white;
+}
 
 .topnav {
     overflow: hidden; 
@@ -89,7 +97,7 @@ li a {
 ul {
     list-style-type: none;
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 45%;
 }
 
 
