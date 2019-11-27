@@ -24,17 +24,11 @@ section {
   align-items: center;
 }
 
-#center-info img {
-    /* vertical-align: middle; */
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 2px solid white;
-    transform: rotate(90deg);
-    margin-left: auto;
-    margin-right: auto;
-    display: block
-}
+/* .center-info {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
 
 .center-info h1, h2 {
     /* display: none; */

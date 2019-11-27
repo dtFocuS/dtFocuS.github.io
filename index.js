@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
     main();
+
+
+    const slider = document.querySelector(".slider");
+    const center = document.querySelector(".center-info");
+
+    const tl = new TimelineMax();
+
+
+    tl.fromTo(center, 1, {height: "0%"}, {height: "80%"});
+
+
 })
 
 function main() {
