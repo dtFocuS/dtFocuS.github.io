@@ -29,9 +29,14 @@ body {
     display: block
 }
 
-.center-info p {
+.center-info h1, h2 {
     /* display: none; */
     /* color: #57C3F2; */
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
 .active {
@@ -97,7 +102,7 @@ li a {
 ul {
     list-style-type: none;
     display: inline-block;
-    margin-left: 45%;
+    margin-left: 50%;
 }
 
 
