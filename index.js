@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     const slider = document.querySelector(".slider");
-    const center = document.querySelector(".center-info");
+    const hero = document.querySelector(".hero");
 
     const tl = new TimelineMax();
 
 
-    tl.fromTo(center, 1, {height: "0%"}, {height: "80%"});
+    tl.fromTo(hero, 1, {height: "0%"}, {height: "80%"});
 
 
 })
