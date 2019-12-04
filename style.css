@@ -57,7 +57,9 @@ section {
   transform: translate(-20%, -70%);
   color: white;
   z-index: 1;
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Alata', sans-serif;
+  /* font-family: 'Tangerine', serif; */
 }
 
 .hero::after {
@@ -145,19 +147,12 @@ li a {
     color: white;
     font-size: 50px;
     font-family: 'Tangerine', serif;
+    /* font-family: 'Alata', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
     font-weight: bold;
     /* animation: text 3s 1; */
 }
 
-@keyframes text {
-    0% {
-        /* color: #A3DFF9 ; */
-        color:#57C3F2; 
-    }
-    30% {
-        letter-spacing: 2px;
-    }
-}
 
 ul {
     list-style-type: none;
@@ -165,5 +160,8 @@ ul {
     margin-left: 50%;
 }
 
+#project {
+  margin-top: 20vh;
+}
 
 
