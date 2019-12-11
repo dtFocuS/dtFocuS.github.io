@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,13 +16,6 @@ body {
   /* background-color:#57C3F2;   */
 }
 
-#portfolio-1 {
-    /* background-color:#57C3F2;   */
-    /* background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(34,124,242,0.9738270308123249) 0%, rgba(0,212,255,1) 100%); */
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,124,242,0.9738270308123249) 0%, rgba(0,212,255,1) 43%); */
-}
 
 /* #portfolio-1 section {
     height: 600px;
@@ -75,6 +72,9 @@ body {
   opacity: 0.7;
 }
 
+
+
+
 .center-info h1, h2 {
     /* display: none; */
     /* color: #57C3F2; */
@@ -124,9 +124,12 @@ li a {
   z-index: -1;
 }
 
+/*Style for the about me section*/
+
 .for-about {
   margin-top: 150px;
   font-family: 'Alata', sans-serif;
+  height: 80vh;
 }
 /* .topnav li:hover {
   background-color: #ddd;
