@@ -124,13 +124,31 @@ li a {
   z-index: -1;
 }
 
+.for-section {
+  margin-top: 150px;
+}
+
 /*Style for the about me section*/
 
 .for-about {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   font-family: 'Alata', sans-serif;
   height: 80vh;
 }
+
+#about {
+  padding-top: 70px;
+}
+
+/* Style for the projects section */
+
+.for-projects {
+  /* margin-top: 150px; */
+  font-family: 'Alata', sans-serif;
+  height: 100vh;
+  background: linear-gradient(to left, #57C3F2, #A2E0FB);
+}
+
 /* .topnav li:hover {
   background-color: #ddd;
   color: black;
