@@ -163,6 +163,7 @@ li a {
   margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   
   /* Supports Grid */
   display: grid;
@@ -219,7 +220,11 @@ li a {
     /* animation: text 3s 1; */
 }
 
+/* style for footer */
 
+footer {
+  height: 20vh;
+}
 
 ul {
     list-style-type: none;
