@@ -124,7 +124,15 @@ body {
 
 .nav-links li {
   list-style-type: none;
+  color: rgb(241, 238, 238);
   /* padding: 14px 16px; */
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(241, 238, 238);
+  margin: 5px;
 }
 
 .topnav li {
