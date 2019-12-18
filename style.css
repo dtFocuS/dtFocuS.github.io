@@ -141,13 +141,35 @@ body {
 
 @media screen and (max-width:1024px) {
   .nav-links {
-    width: 60%;
+    width: 55%;
   }
 }
 
 @media screen and (max-width:768px) {
   body {
-    display: none;
+    overflow-x: hidden;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background: linear-gradient(to left, #57C3F2, #A2E0FB);
+    z-index: 1;
+    transform: translateX(100%); /* Move the side menu to the right and out of the page completely*/
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
   }
 }
 
