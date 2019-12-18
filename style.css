@@ -128,11 +128,27 @@ body {
   /* padding: 14px 16px; */
 }
 
+.burger {
+  display: none;
+}
+
 .burger div {
   width: 25px;
   height: 3px;
   background-color: rgb(241, 238, 238);
   margin: 5px;
+}
+
+@media screen and (max-width:1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    display: none;
+  }
 }
 
 .topnav li {
