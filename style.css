@@ -78,40 +78,70 @@ body {
 .center-info h1, h2 {
     /* display: none; */
     /* color: #57C3F2; */
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
     /* margin-left: 70px;
     margin-top: 50px; */
 }
 
-.active {
+/* .active {
     color: white;
-}
+} */
 
 .topnav {
-    overflow: hidden; 
-    margin-top: 10px;
-  /* background-color: #333; */
-    /* background: pink; */
   
+    /* overflow: hidden;  */
+    /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  /* background: pink; */
+  
+}
+
+.logo {
+  color: rgb(241, 238, 238);
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-links li {
+  list-style-type: none;
+  /* padding: 14px 16px; */
 }
 
 .topnav li {
   /* float: right;  */
-    display: inline-block;
+  /* display: inline-block; */
   /* color: #f2f2f2; */
-    text-align: center;
-    padding: 14px 16px;
-    list-style-type: none;
-    font-family: 'Alata', sans-serif;
+  /* text-align: center; */
+  /* padding: 14px 16px; */
+  /* list-style-type: none;
+  font-family: 'Alata', sans-serif; */
   /* font-size: 17px; */
   
 }
 
 li a {
-    text-decoration: none;
-    color: #f2f2f2;
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
 .slider {
@@ -161,7 +191,7 @@ li a {
 .grid {
   /* Grid Fallback */
   margin-top: 60px;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
   
@@ -205,20 +235,17 @@ li a {
 } */
 
 .topnav .icon {
-    display: none;
+  display: none;
 }
 
-.topnav .logo {
+/* .topnav .logo {
     display: inline-block;
     margin-left: 10%;
     color: white;
     font-size: 50px;
     font-family: 'Tangerine', serif;
-    /* font-family: 'Alata', sans-serif; */
-    /* font-family: 'Permanent Marker', cursive; */
     font-weight: bold;
-    /* animation: text 3s 1; */
-}
+} */
 
 /* style for footer */
 
@@ -226,11 +253,11 @@ footer {
   height: 20vh;
 }
 
-ul {
+/* ul {
     list-style-type: none;
     display: inline-block;
     margin-left: 50%;
-}
+} */
 
 #project {
   margin-top: 20vh;

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".slider");
     const hero = document.querySelector(".hero");
     const logo = document.querySelector(".logo");
-    const menu = document.querySelector(".menu");
+    const navLinks = document.querySelector(".nav-links");
     const headline = document.querySelector(".headline");
 
     const tl = new TimelineMax();
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ).fromTo(
         logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5"
     ).fromTo(
-        menu, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5"
+        navLinks, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5"
     ).fromTo(
         headline, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5"
     )
