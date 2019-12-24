@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     main();
-
+    navSlide();
 
     const slider = document.querySelector(".slider");
     const hero = document.querySelector(".hero");
@@ -28,6 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 })
+
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    })
+}
 
 function main() {
     setInterval(switchText, 2000);

@@ -159,6 +159,7 @@ body {
     background: linear-gradient(to left, #57C3F2, #A2E0FB);
     transform: translateX(100%); /* Move the side menu to the right and out of the page completely*/
     z-index: 2;
+    transition: transform 0.5s ease-in;
   }
 
   .nav-links li {
@@ -167,6 +168,7 @@ body {
 
   .burger {
     display: block;
+    cursor: pointer;
   }
 
   .logo {
@@ -189,6 +191,10 @@ body {
     font-family: 'Alata', sans-serif;
     /* font-family: 'Tangerine', serif; */
   }
+}
+
+.nav-active {
+  transform: translateX(0%);
 }
 
 
