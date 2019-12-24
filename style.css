@@ -17,10 +17,6 @@ body {
 }
 
 
-/* #portfolio-1 section {
-    height: 600px;
-} */
-
 .for-hero {
   display: flex;
   height: 80vh;
@@ -162,7 +158,7 @@ body {
     width: 50%;
     background: linear-gradient(to left, #57C3F2, #A2E0FB);
     transform: translateX(100%); /* Move the side menu to the right and out of the page completely*/
-    z-index: 1;
+    z-index: 2;
   }
 
   .nav-links li {
@@ -171,6 +167,27 @@ body {
 
   .burger {
     display: block;
+  }
+
+  .logo {
+    color: rgb(241, 238, 238);
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+  }
+
+  .headline {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-size: 50px;
+    transform: translate(-20%, -70%);
+    color: white;
+    z-index: 1;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Alata', sans-serif;
+    /* font-family: 'Tangerine', serif; */
   }
 }
 

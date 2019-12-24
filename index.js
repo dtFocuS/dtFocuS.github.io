@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".slider");
     const hero = document.querySelector(".hero");
     const logo = document.querySelector(".logo");
-    const navLinks = document.querySelector(".nav-links");
+    // const navLinks = document.querySelector(".nav-links");
     const headline = document.querySelector(".headline");
 
     const tl = new TimelineMax();
