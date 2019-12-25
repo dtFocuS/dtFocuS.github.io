@@ -81,6 +81,10 @@ body {
     margin-top: 50px; */
 }
 
+.for-about h1, .for-projects h1 {
+  text-transform: uppercase;
+}
+
 /* .active {
     color: white;
 } */
@@ -220,6 +224,21 @@ body {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.grid {
+  position: relative;
+}
+
+.grid:hover .middle {
+  opacity: 0.8;
+}
+
+.middle {
+  opacity: 0;
+  background-color: white;
+  height: 100%;
+  width: 100%;
 }
 
 li a {
