@@ -233,6 +233,34 @@ body {
   box-shadow: 0 25px 40px rgba(0,0,0,0.5);
 }
 
+.grid .project-box .imgBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.grid .project-box .imgBox:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(180deg, #f00, #000);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.grid .project-box:hover .imgBox:before {
+  opacity: 1;
+}
+
+.grid .project-box .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* .middle {
   opacity: 0;
   background-color: white;
@@ -296,7 +324,7 @@ li a {
   flex-wrap: wrap;
   justify-content: center; */
   padding-top: 10px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   /* Supports Grid */
   height: 75vh;
