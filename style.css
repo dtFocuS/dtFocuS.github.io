@@ -296,16 +296,18 @@ li a {
   display: grid;
   flex-wrap: wrap;
   justify-content: center; */
-  
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
   /* Supports Grid */
   height: 75vh;
   display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
  
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
   /* grid-template-areas: ; */
-  grid-gap: 1em;
+  grid-gap: 2em;
   
 }
 
