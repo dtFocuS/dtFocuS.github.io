@@ -106,7 +106,7 @@ body {
 }
 
 .logo {
-  color: rgb(241, 238, 238);
+  color: rgb(255, 255, 255);
   letter-spacing: 5px;
   font-size: 50px;
   font-family: 'Tangerine', serif;
@@ -230,6 +230,9 @@ body {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+
+
+
 .grid .project-box:hover {
   /* opacity: 0.8; */
   z-index: 1;
@@ -247,7 +250,7 @@ body {
 .grid .project-box {
   position: relative;
   background: #eaeaea;
-  grid-column-end: span 4;
+  grid-column-end: span 5;
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -400,9 +403,10 @@ li a {
 .for-projects {
   /* margin-top: 150px; */
   font-family: 'Alata', sans-serif;
-  height: 100vh;
+  height: 110vh;
   /* background: linear-gradient(to left, #57C3F2, #A2E0FB); */
   background: #F3EFE0;
+  
 }
 
 .for-projects h1 {
@@ -423,17 +427,69 @@ li a {
 
 }
 
+.about-me {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.about-me .about-content {
+  /* grid-column: 1/2; */
+  color: rgb(109, 103, 103);
+  align-items: center;
+}
+
+.about-me .selfie img{
+  max-width: 100%; 
+  height: 500px;
+  /* transform: rotate(90deg); */
+  margin-top: 20px;
+  
+  /* grid-column: 4/6; */
+}
+
+.about-me .selfie {
+  position: relative;
+}
+
+.about-me .selfie .pic-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(134, 130, 130);
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+
+}
+
+/* .about-me .selfie:before {
+  position: absolute;
+  content: '';
+  right: -30px;
+  top: 30px;
+  border: 10px solid lightblue;
+  width: 100%;
+  height: 100%;
+  
+} */
+
+
+
 .projects {
   display: grid;
-  grid-template-columns: 1fr repeat(8, minmax(auto, 60px)) 1fr;
+  /* grid-template-columns: 1fr repeat(8, minmax(auto, 60px)) 1fr; */
+  grid-template-columns: 1fr repeat(10, minmax(auto, 60px)) 1fr;
   grid-gap: 40px;
   padding: 60px 0;
 }
 
 .grid {
   display: grid;
-  grid-column: 2 / span 8;
-  grid-template-columns: repeat(8, minmax(auto, 60px));
+  grid-column: 2 / span 10;
+  grid-template-columns: repeat(10, minmax(auto, 60px));
   grid-gap: 40px;
   /* padding-top: 10px;
   width: 70%;
