@@ -86,9 +86,9 @@ body {
   text-transform: uppercase;
 } */
 
-.for-about {
+/* .for-about {
   height: 100vh;
-}
+} */
 
 /* .active {
     color: white;
@@ -313,6 +313,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.grid .project-box .imgBox .rightin{
+  width: 50%;
+  /* height: 100%; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .grid .project-box .project-des {
   padding: 20px;
   position: absolute;
@@ -329,7 +338,7 @@ body {
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 15px;
   /* transform: translateY(300px); */
   transform: translateX(300px);
   opacity: 0;
@@ -349,6 +358,16 @@ body {
   transform: translateY(300px);
   opacity: 0;
   transition: 0.5s;
+  font-size: 15px;
+}
+
+.grid .project-box .project-des .tags {
+  color: #fff;
+  transform: translateY(300px);
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 11px;
+  padding-top: 20px;
 }
 
 .grid .project-box .project-des hr {
@@ -406,7 +425,16 @@ li a {
 .for-about {
   /* margin-top: 150px; */
   font-family: 'Alata', sans-serif;
-  height: 100vh;
+  height: auto;
+  /* width: 820px;
+  margin: 0 auto; */
+  margin-bottom: 15vh;
+}
+
+.for-about .about-section {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
 }
 
 #about {
@@ -431,7 +459,7 @@ li a {
   color:#0bc4e0;
 }
 
-.for-projects hr {
+.for-projects .project-section-hr {
   background-color: #727878;
   opacity: 0.3;
   height: 1px; 
@@ -448,9 +476,10 @@ li a {
 /* styling for about me section */
 .about-me {
   display: grid;
-  grid-template-columns: 5fr 4fr;
-  width: 1000px;
-  margin: 0 auto;
+  /* grid-template-columns: 5fr 4fr; */
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  /* width: 1000px;
+  margin: 0 auto; */
 
 }
 
@@ -467,6 +496,21 @@ li a {
   margin-top: 20px;
   
   /* grid-column: 4/6; */
+}
+
+.about-me .selfie .cartoon-selfie {
+  max-width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.about-me .selfie:hover .cartoon-selfie {
+  opacity: 1;
 }
 
 .about-me .selfie {
