@@ -55,6 +55,7 @@ body {
   z-index: 1;
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Alata', sans-serif;
+  pointer-events: none;
   /* font-family: 'Tangerine', serif; */
 }
 
@@ -112,6 +113,7 @@ body {
   font-size: 50px;
   font-family: 'Tangerine', serif;
   font-weight: bold;
+  pointer-events: none;
 }
 
 .nav-links {
@@ -199,6 +201,7 @@ body {
     font-size: 40px;
     font-family: 'Tangerine', serif;
     font-weight: bold;
+    pointer-events: none;
   }
 
   .headline {
@@ -211,6 +214,7 @@ body {
     z-index: 1;
     /* font-family: 'Permanent Marker', cursive; */
     font-family: 'Alata', sans-serif;
+    pointer-events: none;
     /* font-family: 'Tangerine', serif; */
   }
 }
@@ -342,6 +346,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
+  pointer-events: none;
 }
 
 .grid .project-box .project-des .project-title {
@@ -499,6 +504,7 @@ li a {
   /* grid-column: 1/2; */
   color: rgb(109, 103, 103);
   align-items: center;
+  pointer-events: none;
 }
 
 .about-me .selfie img{
