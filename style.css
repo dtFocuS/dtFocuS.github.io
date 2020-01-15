@@ -148,6 +148,22 @@ body {
   /* padding: 14px 16px; */
 }
 
+/* .hover-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+  transform: translateX(21px);
+}
+
+.hover-link:hover::after {
+  width: 77%;
+  
+  transition: width;
+} */
+
 .burger {
   display: none;
   /* position: absolute;
@@ -329,11 +345,13 @@ body {
 
   .navbar-links li {
     text-align: center;
+    /* display: inline-block; */
   }
 
   .navbar-links li a {
     padding: .5rem 1rem;
   }
+
 
   .navbar-links.active {
     display: flex;
