@@ -139,7 +139,10 @@ body {
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 14px;
-  padding-left: 22px;
+  /* padding-left: 22px; */
+  /* display: inline-block;
+  padding: 20px 0; */
+  margin: 0 1em;
 }
 
 .navbar-links li {
@@ -150,16 +153,15 @@ body {
 
 /* .hover-link::after {
   content: "";
-  display: block;
+  display: inline-block;
   width: 0;
   height: 2px;
   background: #fff;
   transition: width .3s;
-  transform: translateX(21px);
 }
 
 .hover-link:hover::after {
-  width: 77%;
+  width: 100%;
   
   transition: width;
 } */
