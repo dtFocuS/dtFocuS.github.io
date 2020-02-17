@@ -212,13 +212,29 @@ body {
   transform: rotate(225deg);
 }
 
+/* Show menu */
+
+.topnav .toggler:checked ~ .navbar-links {
+  visibility: visible;
+}
+
+.topnav .toggler:checked ~ .navbar-links > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.topnav .toggler:checked ~ .navbar-links > div > div {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
 .topnav .navbar-links {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* visibility: hidden; */
+  visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,7 +250,7 @@ body {
   flex: none;
   align-items: center;
   justify-content: center;
-  /* transform: scale(0); */
+  transform: scale(0);
   transition: all 0.4s ease;
 
 }
@@ -243,8 +259,21 @@ body {
   text-align: center;
   max-width: 90vw;
   max-height: 100vh;
-  /* opacity: 0; */
+  opacity: 0;
   transition: opacity 0.4s ease;
+}
+
+.topnav .navbar-links > div > div > ul > li {
+  list-style: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.topnav .navbar-links > div > div > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease;
 }
 
 /* .logo {
