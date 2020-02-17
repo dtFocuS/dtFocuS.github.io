@@ -252,7 +252,7 @@ body {
   justify-content: center;
   transform: scale(0);
   transition: all 0.4s ease;
-
+  z-index: 6;
 }
 
 .topnav .navbar-links > div > div {
@@ -261,9 +261,11 @@ body {
   max-height: 100vh;
   opacity: 0;
   transition: opacity 0.4s ease;
+  z-index: 6;
 }
 
 .topnav .navbar-links > div > div > ul > li {
+  font-family: 'Roboto', sans-serif;
   list-style: none;
   color: white;
   font-size: 1.5rem;
@@ -308,7 +310,7 @@ body {
 .navbar-links li {
   list-style-type: none;
   color: rgb(241, 238, 238);
-  /* padding: 14px 16px; */
+  /* padding: 14px 16px; 
 } */
 
 
