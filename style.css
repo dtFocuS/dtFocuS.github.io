@@ -348,6 +348,10 @@ body {
   pointer-events: none;
 }
 
+.about-me .about-content p {
+  font-size: 20px;
+}
+
 .about-me .selfie img{
   max-width: 100%; 
   height: 500px;
@@ -391,7 +395,7 @@ body {
   height: 90%;
   background: rgb(134, 130, 130);
   z-index: -1;
-  /* border-radius: 50%; */
+  border-radius: 5%;
   box-shadow: 0 25px 40px rgba(0,0,0,0.5);
 
 }
@@ -1009,26 +1013,11 @@ footer .social .icon-btn:hover::before {
     box-shadow: 0 25px 40px rgba(0,0,0,0.5);
   }
 
-  
-  .slider {
-    height: 95vh;
-  }
-  /* .hero {
-    width: 100px;
-    height: 100px;
+  .for-about .about-section {
+    margin: 0 auto;
+    width: 100%;
   }
 
-  .hero img {
-    width: 400px;
-    height: 400px;
-  }
-
-  .hero::after {
-    content: "";
-    background: lightblue;
-    width: 400px;
-    height: 400px; 
-  } */
   
 }
 
@@ -1116,6 +1105,10 @@ footer .social .icon-btn:hover::before {
     width: 300px;
     height: 100px;
   } */
+  .for-about .about-section {
+    margin: 0 auto;
+    width: 70%;
+  }
   
 }
 
