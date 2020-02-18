@@ -839,7 +839,7 @@ li a {
   display: grid;
   /* grid-column: 2 / span 10;
   grid-template-columns: repeat(10, minmax(auto, 60px)); */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
   grid-gap: 20px;
   /* padding-top: 10px;
   width: 70%;
@@ -1134,11 +1134,21 @@ footer .social .icon-btn:hover::before {
   }
 
   .grid .project-box {
-    width: 100%;
+    width: 90%;
   }
   
   .grid-blogs {
     width: 100%;
     padding: 0;
+  }
+
+  .projects {
+    width: 95%;
+  }
+
+  .for-about .about-section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 }
