@@ -622,6 +622,7 @@ li a {
   /* margin-top: 150px; */
   font-family: 'Alata', sans-serif;
   height: auto;
+  /* height: 80vh; */
   /* width: 820px;
   margin: 0 auto; */
   margin-bottom: 10vh;
@@ -718,7 +719,7 @@ li a {
 .grid-blogs .blog-box {
   /* position: relative; */
   background: rgb(49, 46, 46);
-  padding: 3px 3px 3px;
+  /* padding: 1px 1px 1px; */
   text-align: center;
   /* overflow: hidden; */
   /* border-radius: 20px; */
@@ -728,7 +729,7 @@ li a {
   box-sizing: border-box;
   overflow: hidden;
   cursor: pointer;
-  /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
 .grid-blogs .blog-box .blogImage {
@@ -1117,6 +1118,39 @@ footer .social .icon-btn:hover::before {
   
 }
 
+@media screen and (max-width:414px) {
+  .for-about .about-section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .projects {
+    width: 97%;
+  }
+
+  .grid .project-box {
+    width: 100%;
+  }
+
+  .blogs {
+    width: 100%;
+  }
+
+  .about-me .selfie img{
+    max-width: 100%; 
+    height: 400px;
+    /* transform: rotate(90deg); */
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    transform: translateX(50px);
+    
+    /* grid-column: 4/6; */
+  }
+
+}
+
 @media screen and (max-width:375px) {
   .grid .project-box {
     position: relative;
@@ -1133,13 +1167,17 @@ footer .social .icon-btn:hover::before {
     width: 80%;
   }
 
-  .grid .project-box {
+  /* .grid .project-box {
     width: 90%;
-  }
+  } */
   
   .grid-blogs {
     width: 100%;
     padding: 0;
+  }
+
+  .blogs {
+    width: 95%;
   }
 
   .projects {
@@ -1151,4 +1189,40 @@ footer .social .icon-btn:hover::before {
     height: auto;
     margin: 0 auto;
   }
+
+  .about-me .selfie img{
+    max-width: 100%; 
+    height: 400px;
+    /* transform: rotate(90deg); */
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    transform: translateX(45px);
+    
+    /* grid-column: 4/6; */
+  }
+}
+
+@media screen and (max-width:320px) {
+  .projects {
+    width: 97%;
+  }
+
+  .grid .project-box {
+    width: 77%;
+  }
+
+  .about-me .selfie img{
+    max-width: 100%; 
+    height: 400px;
+    /* transform: rotate(90deg); */
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    transform: translateX(20px);
+    
+    /* grid-column: 4/6; */
+  }
+  
+
 }
