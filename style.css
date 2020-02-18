@@ -68,6 +68,7 @@ body {
 .for-hero .center-info p {
   margin-top: 50px;
   font-size: 2rem;
+  word-spacing: 10px;
 }
 
 /* .center-info {
@@ -1200,6 +1201,16 @@ footer .social .icon-btn:hover::before {
     transform: translateX(45px);
     
     /* grid-column: 4/6; */
+  }
+}
+
+@media screen and (max-width:360px) {
+  .projects {
+    width: 97%;
+  }
+
+  .grid .project-box {
+    width: 87%;
   }
 }
 
