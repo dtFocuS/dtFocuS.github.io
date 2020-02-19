@@ -619,6 +619,7 @@ li a {
   /* margin-top: 90px; */
   font-size: 50px;
   font-family: 'Alata', sans-serif;
+  color: rgb(109, 103, 103);
 }
 
 /*Style for the about me section*/
@@ -657,7 +658,7 @@ li a {
 
 .for-projects h1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
   color: rgb(109, 103, 103);
 }
 
@@ -697,7 +698,7 @@ li a {
   padding-top: 70px;
 }
 
-.for-blogs hr {
+.for-blogs hr, .for-technologies hr {
   background-color: #727878;
   opacity: 0.3;
   height: 1px; 
@@ -870,6 +871,37 @@ li a {
 .grid img {
   width: 100%;
 }
+
+
+/* Styling for technologies section */
+.for-technologies h1 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.technologies {
+  height: auto;
+  width: 80%;
+  margin: 0 auto 70px auto;
+}
+
+.grid-technologies {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+  grid-gap: 10px;
+}
+
+.tech-box {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.tech-box i {
+  width: 100%;
+}
+
+
 
 /* .topnav li:hover {
   background-color: #ddd;
