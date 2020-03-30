@@ -1031,7 +1031,7 @@ footer .social .icon-btn:hover::before {
 }
 
 /* Media Queries */
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1600px) {
 
   .about-me .selfie .pic-background {
     /* position: absolute;*/
@@ -1044,7 +1044,7 @@ footer .social .icon-btn:hover::before {
     background: rgb(134, 130, 130);
     /* opacity: 0; */
     z-index: -1;
-    box-shadow: 0 25px 40px rgba(0,0,0,0.5); */
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5); 
   }
 
   .about-me .selfie img{
@@ -1074,6 +1074,44 @@ footer .social .icon-btn:hover::before {
     
     /* grid-column: 4/6; */
   }
+
+}
+
+@media screen and (max-width:1300px) {
+
+  .about-me .selfie .pic-background {
+    /* position: absolute;*/
+    width: 80%;
+    height: 80%;
+    margin-top: 15%;
+    /* top: 2rem;
+    left: 0;
+    transform: translateX(50px);
+    background: rgb(134, 130, 130);
+    /* opacity: 0; */
+    z-index: -1;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5); 
+  }
+
+
+}
+
+@media screen and (max-width:1250px) {
+
+  .about-me .selfie .pic-background {
+    /* position: absolute;*/
+    width: 90%;
+    height: 80%;
+    margin-top: 15%;
+    /* top: 2rem;
+    left: 0;
+    transform: translateX(50px);
+    background: rgb(134, 130, 130);
+    /* opacity: 0; */
+    z-index: -1;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5); 
+  }
+
 
 }
 
